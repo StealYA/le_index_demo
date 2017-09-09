@@ -1,0 +1,76 @@
+/*
+	design by yaer;
+	time : 2016-8-8
+	email : WangY_web@163.com
+*/
+@charset 'UTF-8';
+
+/* reset */
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dd,dt,p {
+	padding:0;
+	margin:0;
+}
+body {
+	font:12px/24px 'Microsoft Yahei','宋体',sans-serif;
+}
+li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+img {
+	border:0;
+}
+/* common */
+.border {
+	border:1px solid red;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clearfix:after {
+	content:'';
+	height:0;
+	font-size:0;
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {
+	zoom:1;
+}
+.main {
+	width:1200px;
+	margin:0 auto;
+}
+.borderA {
+	border:1px solid #e8e8e8;
+}
+.borderT {
+	border:1px solid #e8e8e8;
+	border-top:none;
+}
+.borderR {
+	border:1px solid #e8e8e8;
+	border-right:none;
+}
+.borderB {
+	border:1px solid #e8e8e8;
+	border-bottom:none;
+}
+.borderL {
+	border:1px solid #e8e8e8;
+	border-left:none;
+}
+.borderTL {
+	border:1px solid #e8e8e8;
+	border-left:none;
+	border-top:none;
+}
+.mt10 {
+	margin-top:10px;
+}
